@@ -1,0 +1,128 @@
+#nav .main-nav > li {
+    font-size:20px;
+    margin-right: 60px;
+    text-align: center;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+}
+#nav .main-nav > li > a {
+    display: block;
+}
+/*sub-nav1*/
+#nav .sub-nav1 {
+    width: 180px;
+    height: 92px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.15s ease-in;
+    position: relative;
+    z-index: 10;
+}
+#nav .sub-nav1 > li {
+    font-size: 16px;
+    height: 23px;
+    margin-bottom: 10px;
+}
+.sub-nav1 > li > a:hover {
+    color: #D0A58F;
+}
+/* .main-nav > li:hover .sub-nav1 {
+    opacity: 1;
+    visibility: visible;
+} */
+
+
+/*sub-nav2*/
+#nav .sub-nav2 {
+    width: 180px;
+    height: 224px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.15s ease-in;
+    position: relative;
+    z-index: 10;
+}
+#nav .sub-nav2 > li {
+    font-size: 16px;
+    height: 23px;
+    margin-bottom: 10px;
+}
+.sub-nav2 > li > a:hover {
+    color: #D0A58F;
+}
+
+/*sub-nav3*/
+#nav .sub-nav3 {
+    width: 180px;
+    height: 92px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.15s ease-in;
+    position: relative;
+    z-index: 10;
+}
+#nav .sub-nav3 > li {
+    font-size: 16px;
+    height: 23px;
+    margin-bottom: 10px;
+}
+.sub-nav3 > li > a:hover {
+    color: #D0A58F;
+}
+
+/*sub-nav4*/
+#nav .sub-nav4 {
+    width: 180px;
+    height: 124px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.15s ease-in;
+    position: relative;
+    z-index: 10;
+}
+#nav .sub-nav4 > li {
+    font-size: 16px;
+    height: 23px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 11;
+}
+.sub-nav4 > li > a:hover {
+    color: #D0A58F;
+}
+/*sub-nav5*/
+#nav .sub-nav5 {
+    width: 180px;
+    height: 92px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.15s ease-in;
+    position: relative;
+    z-index: 10;
+}
+#nav .sub-nav5 > li {
+    font-size: 16px;
+    height: 23px;
+    margin-bottom: 10px;
+}
+.sub-nav5 > li > a:hover {
+    color: #D0A58F;
+}
+
+

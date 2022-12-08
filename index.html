@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나들한옥</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/main,sub-nav.css">
+    <link rel="stylesheet" href="./css/hambtn.css">
+    <!--script-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+    <script src="./js/jquery.touchSlider.js"></script>
+</head>
+<body>
+    <!--top-상단 sns&logo&button-->
+    <section id="top">
+        <div class="container01">
+            <div class="top-left">
+                <div class="instargram-btn">
+                    <a href="#"><img src="./img/icon/instagram.png" alt="instagram-icon">
+                    </a>
+                </div>
+                <div class="facebook-btn">
+                    <a href="#"><img src="./img/icon/facebook.png" alt="facebook-icon"></a> 
+                </div>            
+            </div>
+            <h1 class="top-center">
+                <a href="#"><img src="./img/logo.png" alt="logo"></a>
+            </h1>
+            <div class="top-right">
+                <div class="top-btn">예약 · 문의</div>
+                <div class="hamburger">
+                    <div class="hamburger__container">
+                      <div class="hamburger__inner"></div>
+                      <div class="hamburger__hidden"></div>
+                    </div>
+                </div>
+                <div class="hamburger-sub">
+                    <h2>나들한옥 MENU</h2>
+                    <h3>나들한옥이야기</h3>
+                    <p>나들한옥 소개</p>
+                    <p>오시는길</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--nav-->
+    <nav id="nav">
+        <div class="container01">
+            <ul class="main-nav">
+                <li><a href="#">나들한옥이야기</a>
+                    <ul class="sub-nav1">
+                        <li><a href="#">나들한옥 소개</a></li>
+                        <li><a href="#">오시는길</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">나들한옥의 방</a>
+                    <ul class="sub-nav2">
+                        <li><a href="#">누리(온돌방)</a></li>
+                        <li><a href="#">가연(침대방)</a></li>
+                        <li><a href="#">늘봄(온돌방)</a></li>
+                        <li><a href="#">나래(온돌방)</a></li>
+                        <li><a href="#">도담(침대방)</a></li>
+                        <li><a href="#">도솔(침대방)</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">나들한옥의 멋</a>
+                    <ul class="sub-nav3">
+                        <li><a href="#">주변 관광지</a></li>
+                        <li><a href="#">외부사진</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">이용안내</a>
+                    <ul class="sub-nav4">
+                        <li><a href="#">예약 · 문의</a></li>
+                        <li><a href="#">자주하는 질문</a></li>
+                        <li><a href="#">고객의 소리</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">알림마당</a>
+                    <ul class="sub-nav5">
+                        <li><a href="#">나들한옥 소식</a></li>
+                        <li><a href="#">이벤트 · 프로모션</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="touchSlider">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="slider-text">
+            <p>편안하고 즐거운 휴식공간</p>
+            <h2>나들한옥</h2>
+        </div>
+    </div>
+
+    <!--section01 - story-->
+    <div id="story">
+        <div class="container02">
+            <div class="story-left">
+                <p>나들한옥 이야기</p>
+                <h3>나다, <span class="stroke">들다</span></h3>
+            </div>
+            <div class="story-center">
+                <h4>이용객에게 편안하고 즐거운 휴식공간을 제공합니다.</h4>
+                <p>경주여행의 최적한 위치를 충족하는 경주 한옥숙소입니다.
+                    나들한옥은 온돌객실 3개, 침실객실3개, 그리고
+                    공용공간 라운지로 구성되어 있습니다.
+                    노출된 서까래와 대들보가 한옥의 조화를 이루고 있으며,
+                    커피와 차(tea)가 있는 나들한옥의 공용공간 라운지는
+                    이용시간 내에 자유롭게 이용하실 수 있습니다.
+                </p>
+                <h4 class="story-text1">체크인 : 오후 3시 이후</h4>
+                <h4 class="story-text2">체크아웃 : 오전 11시까지</h4>
+            </div>
+            <div class="story-right">
+                <img src="./img/section01/right.png" alt="나들한옥 logo 세로">
+            </div>
+        </div>
+    </div>
+
+    <!--section02 - room-->
+    <section id="room">
+        <div class="container02">
+            <div class="room-title">
+                <div class="room-title-left">
+                    <h2>나들한옥의 방</h2>
+                    <div class="room-line">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                    </div>
+                </div>
+                <div class="room-title-right">
+                    <h3><span class="stroke">韓屋</span>房</h3>
+                </div>
+            </div>
+            <div class="room-contents">
+                <div class="room-box-top">
+                    <div class="box">
+                        <img src="./img/section02/room1.png" alt="room1">
+                        <div class="room-contents-title">
+                            <h4>누리</h4>
+                            <div class="room-contents-title-right">
+                                <div class="room-contents-line"></div>
+                                <div class="view"><a href="#">view</a></div>
+                            </div>
+                        </div>
+                        <p>편백나무들로 지어진 전통한옥,
+                            온돌로 되어 전통한옥의 느낌 그대로.
+                        </p>
+                    </div>
+                    <div class="box">
+                        <img src="./img/section02/room2.png" alt="room2">
+                        <div class="room-contents-title">
+                            <h4>가연</h4>
+                            <div class="room-contents-title-right">
+                                <div class="room-contents-line"></div>
+                                <div class="view"><a href="#">view</a></div>
+                            </div>
+                        </div>
+                        <p>편백나무들로 지어진 전통 한옥,
+                            침대로 되어 여행의 편안함을 추가.
+                        </p>
+                    </div>
+                    <div class="box">
+                        <img src="./img/section02/room3.png" alt="room3">
+                        <div class="room-contents-title">
+                            <h4>늘봄</h4>
+                            <div class="room-contents-title-right">
+                                <div class="room-contents-line"></div>
+                                <div class="view"><a href="#">view</a></div>
+                            </div>
+                        </div>
+                        <p>편백나무들로 지어진 전통한옥,
+                            온돌로 되어 전통한옥의 느낌 그대로.
+                        </p>
+                    </div>
+                </div>
+                <div class="room-box-bottom">
+                    <div class="box">
+                        <img src="./img/section02/room4.png" alt="room4">
+                        <div class="room-contents-title">
+                            <h4>나래</h4>
+                            <div class="room-contents-title-right">
+                                <div class="room-contents-line"></div>
+                                <div class="view"><a href="#">view</a></div>
+                            </div>
+                        </div>
+                        <p>편백나무들로 지어진 전통한옥,
+                            온돌로 되어 전통한옥의 느낌 그대로.
+                        </p>
+                    </div>
+                    <div class="box">
+                        <img src="./img/section02/room5.png" alt="room5">
+                        <div class="room-contents-title">
+                            <h4>도담</h4>
+                            <div class="room-contents-title-right">
+                                <div class="room-contents-line"></div>
+                                <div class="view"><a href="#">view</a></div>
+                            </div>
+                        </div>
+                        <p>편백나무들로 지어진 전통 한옥,
+                            침대로 되어 여행의 편안함을 추가.
+                        </p>
+                    </div>
+                    <div class="box">
+                        <img src="./img/section02/room6.png" alt="room6">
+                        <div class="room-contents-title">
+                            <h4>도솔</h4>
+                            <div class="room-contents-title-right">
+                                <div class="room-contents-line"></div>
+                                <div class="view"><a href="#">view</a></div>
+                            </div>
+                        </div>
+                        <p>편백나무들로 지어진 전통한옥,
+                            온돌로 되어 전통한옥의 느낌 그대로.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section03 - good-->
+    <section id="good">
+        <div class="container02">
+            <div class="good-title">
+                <div class="good-title-left">
+                    <h2>나들한옥의 멋</h2>
+                    <div class="good-line">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                    </div>
+                </div>
+                <div class="good-title-right">
+                    <h3><span class="stroke">韓屋</span>美</h3>
+                </div>
+            </div>
+            <div class="good-conts">
+                <div class="good-box">
+                    <img src="./img/section03/1.png" alt="주변관광지모습">
+                    <div class="good-conts-title">
+                        <h4>주변관광지</h4>
+                        <div class="good-conts-title-right">
+                            <div class="good-conts-line"></div>
+                            <div class="view"><a href="#">view</a></div>
+                        </div>
+                    </div>
+                    <p>나들한옥 주변의 관광지를 통해
+                        경주의 멋을 느껴보세요.
+                    </p>
+                </div>
+                <div class="good-box">
+                    <img src="./img/section03/2.png" alt="숙소외부사진">
+                    <div class="good-conts-title">
+                        <h4>외부사진</h4>
+                        <div class="good-conts-title-right">
+                            <div class="good-conts-line"></div>
+                            <div class="view"><a href="#">view</a></div>
+                        </div>
+                    </div>
+                    <p>나들한옥의 모습을 통해
+                        한옥의 멋을 느껴보세요.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--subBanner-->
+    <section id="subBanner">
+        <h2>나들한옥</h2>
+        <h3>나다 + 들다</h3>
+        <button class="subBanner-btn">
+            <p>나들한옥 소식</p>
+            <img src="./img/icon/plus.png" alt="plus-icon">
+        </button>
+    </section>
+
+    <!--section04 - service-->
+    <section id="service">
+        <div class="container02">
+            <div class="service-left">
+                <h2>나들한옥 <span>이용안내</span></h2>
+                <div class="service-left-conts">
+                    <div class="service-left-cont">
+                        <img src="./img/section04/Location.png" alt="오시는길안내사진">
+                        <div class="service-left-bottom">
+                            <h3>Location</h3>
+                            <h4>오시는길 안내</h4>
+                            <div class="service-line"></div>
+                            <p>여유로운 주차공간</p>
+                            <p>나들한옥</p>
+                            <p>오시는길 안내</p>
+                        </div>
+                    </div>
+                    <div class="service-left-cont">
+                        <img src="./img/section04/Reservation.png" alt="예약사진">
+                        <div class="service-left-bottom">
+                            <h3>Reservation</h3>
+                            <h4>상담 및 방문 예약</h4>
+                            <div class="service-line"></div>
+                            <p>섬세하고 상냥하게</p>
+                            <p>최선을 다해</p>
+                            <p>안내해드리겠습니다.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="service-right">
+                <h2>나들한옥 <span>오시는 길</span></h2>
+                <div class="service-right-cont">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.528425303422!2d129.21619781563322!3d35.83604422907249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35664e67bed4a635%3A0x86e1976e2e43bb8a!2z6rK97KO87ZWc7Jil66-867CVIOuCmOuTpO2VnOyYpSAo7ZWc7Jil7Iqk7YWM7J20KQ!5e0!3m2!1sko!2skr!4v1666832218084!5m2!1sko!2skr" width="700" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!-- <div id="daumRoughmapContainer1665034717987" class="root_daum_roughmap root_daum_roughmap_landing"></div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <section id="footer">
+        <div class="container02">
+            <div class="footer-left">
+                <p>경주의 참맛을 느낄 수 있는 나들한옥으로 찾아오세요.</p>
+                <p>언제든지 환영합니다.</p>
+                <img src="./img/logo-big.png" alt="로고세로">
+            </div>
+            <div class="footer-right">  
+                <h2>위치</h2>
+                <p>경주시 쪽샘길 4-1</p>
+                <p>(경주시 인왕동 814-3) 나들한옥</p>
+                <h2>연락처</h2>
+                <p><span>TEL</span>010-5011-7738</p>
+                <p><span>카카오톡</span>gjhanok</p>
+                <h2>소셜네트워크</h2>
+                <div class="sns-icon">
+                    <div class="instargram-btn">
+                        <a href="#"><img src="./img/icon/instagram.png" alt="instagram-icon">
+                        </a>
+                    </div>
+                    <div class="facebook-btn">
+                        <a href="#"><img src="./img/icon/facebook.png" alt="facebook-icon"></a> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/sns-btn.js"></script>
+    <script src="./js/nav-show,hidden.js"></script>
+    <script src="./js/subBanner.js"></script>
+    <script>
+        $("#touchSlider").touchSlider({
+            // ... Options
+            page: 1,
+            controls: false,
+            useMouse: true,
+            speed: 150,
+        });
+    </script>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', (e) => {
+           e.currentTarget.classList.toggle('is-active');
+       })
+     </script>
+    <!-- <script>
+        new daum.roughmap.Lander({
+            "timestamp" : "1665034717987",
+            "key" : "2bxqn",
+            "mapWidth" : "700",
+            "mapHeight" : "480"
+        }).render();
+    </script> -->
+</body>
+</html>
